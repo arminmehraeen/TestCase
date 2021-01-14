@@ -8,7 +8,7 @@ elem = driver.find_element_by_name("login")
 elem.clear()
 elem.send_keys("example@gamil.com")
 
-elem = driver.find_element_by_name("password")
+elem = driver.find_element_by_name("Password")
 elem.clear()
 
 elem = driver.find_element_by_name("commit")
