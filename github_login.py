@@ -6,7 +6,7 @@ driver.get('https://github.com/login')
 
 elem = driver.find_element_by_name("login")
 elem.clear()
-elem.send_keys("example@gamil.com")
+elem.send_keys("test@gamil.com")
 
 elem = driver.find_element_by_name("Password")
 elem.clear()
@@ -28,7 +28,7 @@ time.sleep(5)
 
 elem = driver.find_element_by_name("login")
 elem.clear()
-elem.send_keys("example@gamil.com")
+elem.send_keys("test@gamil.com")
 
 elem = driver.find_element_by_name("password")
 elem.clear()
